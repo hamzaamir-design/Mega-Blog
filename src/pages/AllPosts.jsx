@@ -27,7 +27,7 @@ function AllPosts() {
           Explore All Posts
         </h1>
 
-        {/* Search Input */}
+       
         <div className="max-w-xl mx-auto mb-8">
           <input
             type="text"
@@ -38,7 +38,7 @@ function AllPosts() {
           />
         </div>
 
-        {/* Posts */}
+  
         {loading ? (
           <p className="text-center text-gray-500">Loading posts...</p>
         ) : filteredPosts.length > 0 ? (
